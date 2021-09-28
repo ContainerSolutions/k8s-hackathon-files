@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Front End</title>
+</head>
+<body>
+<p class="spin">Hello World! I'm getting dizzy!</p>
+</body>
+<style>
+    @keyframes spin {
+        from {
+        }
+        to {
+            transform: rotate(64000deg);
+        }
+    }
+
+    .spin {
+        animation-name: spin;
+        animation-duration: 300s;
+        font-size: 1.5em;
+        position: absolute;
+        padding-left: 42.5vw;
+        padding-right: 42.5vw;
+        padding-top: 50vh;
+        text-align: center;
+    }
+</style>
+
+</html>
