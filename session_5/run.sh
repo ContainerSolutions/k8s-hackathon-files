@@ -12,7 +12,7 @@ helm repo update
 
 # 3) Check release configuration
 
-#  Check contents of values.yaml
+#  Check contents of prometheus-values.yaml
 
 # 4) Install Prometheus using a Helm chart
 
