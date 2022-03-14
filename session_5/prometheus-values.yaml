@@ -7,5 +7,7 @@ nodeExporter:
 pushgateway:
   enabled: false
 server:
+  service:
+    type: LoadBalancer
   global:
     scrape_interval: 10s
